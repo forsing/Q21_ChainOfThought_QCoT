@@ -69,7 +69,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -339,7 +339,7 @@ BEST hparam: nq= 6 | S (koraka misli): 1 | K (recent): 100 | cos(bias, freq_csv)
 --- kumulativni lanac (nakon svakog koraka) ---
 S=1  +F1 HOT     cos=0.808989  NEXT=(2, 9, 10, 12, 19, 21, 24)
 --- glavna predikcija (QCoT finalni lanac) ---
-predikcija NEXT: (2, 9, 10, 12, 19, 21, 24)
+predikcija NEXT: (2, 9, x, y, z, 21, 24)
 """
 
 
